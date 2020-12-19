@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="description" content="We Are Codeomatics A team of passionate designers and developers from Pakistan">
+    <meta http-equiv="Cache-control" content="public">
     <title>Codeomatics</title>
     <?php 
       $msie = strpos($_SERVER["HTTP_USER_AGENT"], 'MSIE') ? true : false; 
