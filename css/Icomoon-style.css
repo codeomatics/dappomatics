@@ -25,6 +25,9 @@
   src: url('../fonts/Basel-Regular.woff') format('woff');
   font-display: swap;
 }
+body{
+  font-family: Basel !important
+}
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'Paperpillar' !important;
