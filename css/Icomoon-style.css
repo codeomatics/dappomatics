@@ -22,7 +22,7 @@
 }
 @font-face {
   font-family: 'Basel';
-  src: url('../fonts/Basel-Regular.woff') format('woff2');
+  src: url('../fonts/Basel-Regular.woff') format('woff');
   font-display: swap;
 }
 [class^="icon-"], [class*=" icon-"] {

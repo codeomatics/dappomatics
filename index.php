@@ -47,12 +47,12 @@
           font-family: 'Art Basel Headline';
           src: url('fonts/ArtBaselHeadline-Bold.woff') format('woff');
           font-display: swap;
-        }
+        }*/
         @font-face {
           font-family: 'Basel';
           src: url('fonts/Basel-Regular.woff') format('woff');
           font-display: swap;
-        }*/
+        }
         body{
           font-family: Basel !important
         }
