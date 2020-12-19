@@ -52,7 +52,6 @@
         @font-face {
           font-family: 'Basel';
           src: url('fonts/Basel-Regular.woff') format('woff');
-          font-display: swap;
         }
         body{
           font-family: Basel !important
