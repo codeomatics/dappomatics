@@ -18,8 +18,8 @@
       ';
       }else{
         echo '
-        <link rel="preload" as="style" href="css/css-main.min.css" type="text/css" onload="this.onload=null;this.rel=/'stylesheet/'">
-        <link rel="preload" href="css/Icomoon-style.css" as="style" type="text/css" onload="this.onload=null;this.rel=/'stylesheet/'">
+        <link rel="preload" as="style" href="css/css-main.min.css" type="text/css" onload="this.onload=null;this.rel='.'stylesheet'.'">
+        <link rel="preload" href="css/Icomoon-style.css" as="style" type="text/css" onload="this.onload=null;this.rel='.'stylesheet'.'">
         ';
       }
     ?>
