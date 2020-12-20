@@ -66,7 +66,7 @@
       <div class="loader-section section-left"></div>
       <div class="loader-section section-right"></div>
     </div>
-    <div class="app" id="content" style="display: none;">
+    <div class="app" id="content" style="">
       <header>
         <div class="header-container">
           <div class="container">
