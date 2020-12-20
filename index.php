@@ -346,7 +346,7 @@
     <script type="text/javascript">
       $('body').toggleClass('loaded');
       setTimeout(()=>{
-        $('#content').show()
+        document.getElementById('content').style.display =""
       },400)
     </script>
   </body>
