@@ -52,7 +52,7 @@
       <div class="loader-section section-left"></div>
       <div class="loader-section section-right"></div>
     </div>
-    <div class="app" id="content" style="display: none;">
+    <div class="app" id="content" style="">
       <header>
         <div class="header-container">
           <div class="container">
@@ -327,14 +327,13 @@
       </div>
     </div>
     <!-- <script src="js/2.22.2-moment.min.js"></script> -->
-    
+    <script src="js/js-main.min.js"></script>
     <!-- <script src="js/p-platform.js"></script> -->
     <script type="text/javascript">
       $('body').toggleClass('loaded');
-      setTimeout(()=>{
-        document.getElementById('content').style.display =""
-      },400)
+      // setTimeout(()=>{
+      //   document.getElementById('content').style.display =""
+      // },400)
     </script>
-    <script src="js/js-main.min.js"></script>
   </body>
 </html>
