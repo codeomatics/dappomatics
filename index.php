@@ -327,7 +327,7 @@
       </div>
     </div> -->
     <!-- <script src="js/2.22.2-moment.min.js"></script> -->
-    <script src="js/js-main.min.js" async></script>
+    <script src="js/js-main.min.js"></script>
     <script src="js/p-platform.js" defer></script>
     <script type="text/javascript">
       $('body').toggleClass('loaded');
