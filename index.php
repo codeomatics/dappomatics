@@ -21,8 +21,8 @@
         echo '
         <link rel="preload" as="style" href="css/css-main.min.css" type="text/css" onload="this.onload=null;this.rel='.'stylesheet'.'">
         <link rel="preload" href="css/Icomoon-style.css" as="style" type="text/css" onload="this.onload=null;this.rel='.'stylesheet'.'">
-        <link rel="preload" as="font" href="fonts/Basel-Regular.woff" crossorigin="anonymous">
-        <link rel="preload" as="font" href="fonts/ArtBaselHeadline-Bold.woff" crossorigin="anonymous">
+        <link rel="preload" as="font" href="fonts/Basel-Regular.woff" type="font/woff" crossorigin="anonymous">
+        <link rel="preload" as="font" href="fonts/ArtBaselHeadline-Bold.woff" type="font/woff" crossorigin="anonymous">
         <link rel="preload" as="font" href="fonts/fonts-Paperpillar.ttf" crossorigin="anonymous">
         <link rel="preload" as="font" href="css/font-awsome/webfonts/fa-brands-400.woff2" crossorigin="anonymous">
         ';
