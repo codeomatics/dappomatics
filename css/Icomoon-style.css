@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Paperpillar';
-  src:  url('../fonts/fonts-Paperpillar.eot');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src:  url('../fonts/fonts-Paperpillar.eot') format('embedded-opentype');
   src:  url('../fonts/fonts-Paperpillar.eot#iefix') format('embedded-opentype'),
     url('../fonts/fonts-Paperpillar.ttf') format('truetype'),
     url('../fonts/fonts-Paperpillar.woff') format('woff'),
     url('../fonts/fonts-Paperpillar.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
 }
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
