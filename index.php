@@ -39,23 +39,6 @@
     <!-- <script src="js/recaptcha-api.js" async defer></script> -->
     <link rel="preload" href="css/font-awsome/css/all.min.css"  as="style" type="text/css" onload="this.onload=null;this.rel='stylesheet'">
     <style>
-        /*@font-face {
-          font-family: 'Art Basel Text';
-          src: url('fonts/ArtBaselText-Regular.woff2') format('woff2');
-          font-display: swap;
-        }
-        @font-face {
-          font-family: 'Art Basel Headline';
-          src: url('fonts/ArtBaselHeadline-Bold.woff') format('woff');
-          font-display: swap;
-        }
-        @font-face {
-          font-family: 'Basel';
-          src: url('fonts/Basel-Regular.woff') format('woff');
-        }
-        body{
-          font-family: Basel !important
-        }*/
       #eapps-form-1 .eapps-form-layout-default, #eapps-form-1 .eapps-form-layout-boxed{
         padding: 0 !important;
         border: none !important;
@@ -344,8 +327,8 @@
       </div>
     </div> -->
     <!-- <script src="js/2.22.2-moment.min.js"></script> -->
-    <script src="js/js-main.min.js"></script>
-    <script src="js/p-platform.js"></script>
+    <script src="js/js-main.min.js" defer></script>
+    <script src="js/p-platform.js" defer></script>
     <script type="text/javascript">
       $('body').toggleClass('loaded');
       setTimeout(()=>{
