@@ -11,6 +11,12 @@
     <link rel="preload" as="font" href="fonts/ArtBaselHeadline-Bold.woff" type="font/woff" crossorigin="anonymous">
     <link rel="preload" as="font" href="fonts/fonts-Paperpillar.ttf" crossorigin="anonymous">
     <link rel="preload" as="font" href="css/font-awsome/webfonts/fa-brands-400.woff2" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="css/form-style.css">
+
     <?php 
       $msie = strpos($_SERVER["HTTP_USER_AGENT"], 'MSIE') ? true : false; 
       $firefox= strpos($_SERVER["HTTP_USER_AGENT"], 'Firefox') ? true : false;
@@ -216,18 +222,73 @@
                 <div class="clients-group">
                   <div class="clients-item agoda"><img src="images/studio.png"></div>
                   <div class="clients-item getsafe"><img src="images/LJO.png"></div>
+                  <div class="clients-item getsafe"><img src="images/LJO.png"></div>
                 </div>
                 <div class="clients-group">
                   <div class="clients-item anyleads"><img src="images/readyhai.png"></div>
                   <div class="clients-item grab"><img src="images/handier.png"></div>
                   <div class="clients-item anyleads connect"><img src="images/connect.png"></div>
+                  <div class="clients-item anyleads connect"><img src="images/connect.png"></div>
                 </div>
                 <div class="clients-group">
                   <div class="clients-item teachable"><img src="images/certifypk.png"></div>
                   <div class="clients-item flyr"><img src="images/clobbers.png"></div>
+                  <div class="clients-item flyr"><img src="images/clobbers.png"></div>
                 </div>
                 <div class="clients-group">
                   <div class="clients-item roger"><img src="images/pumpify.png"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="home-works"><div class="container">
+            <div class="works-section">
+              <div class="section-title text-center">
+                <h2>Our Blockchain Services</h2>
+              </div>
+              <div class="works-container">
+                <div class="work-list crisp-works">
+                  <div class="work-wrapper d-flex">
+                    <div class="work-description">
+                      <div class="work-detail d-flex flex-column justify-content-between">
+                        <div>
+                          <h3>Smart Contracts</h3>
+                          <p>Designing, Developing, Testing & Deploying Smart Contracts</p>
+                        </div>
+                        <div><a class="btn btn-work" href="https://www.behance.net/gallery/50451725/Crisp" target="_blank">View Project</a></div>
+                      </div>
+                    </div>
+                    <div class="work-image d-flex justify-content-center align-items-center"><img src="images/images-crisp-works.png"></div>
+                  </div>
+                </div>
+                <div class="work-list lifecycle-works">
+                  <div class="work-wrapper d-flex">
+                    <div class="work-description">
+                      <div class="work-detail d-flex flex-column justify-content-between">
+                        <div>
+                          <h3>Decentralized Apps</h3>
+                          <p>DeFi, NFT Marketplaces and Exchanges</p>
+                        </div>
+                        <div><a class="btn btn-work" href="https://www.behance.net/gallery/52119809/Lifecycle" target="_blank">View Project</a></div>
+                      </div>
+                    </div>
+                    <div class="work-image d-flex justify-content-center align-items-center"><img src="images/images-lifecycle-works.png"></div>
+                  </div>
+                </div>
+                <div class="work-list calendar-works">
+                  <div class="work-wrapper d-flex">
+                    <div class="work-description">
+                      <div class="work-detail d-flex flex-column justify-content-between">
+                        <div>
+                          <h3>Consultancy</h3>
+                          <p>Tokenomics, Whitepapers and Coin Development</p>
+                        </div>
+                        <div><a class="btn btn-work" href="https://www.behance.net/gallery/60092409/Paperpillar-2018-Calendar" target="_blank">View Project</a></div>
+                      </div>
+                    </div>
+                    <div class="work-image"></div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -313,7 +374,53 @@
       <div class="modal-dialog modal-dialog-centered">
         <svg width="742px" height="918px" viewbox="0 0 742 918" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><clippath id="myClip"><path d="M30.723868,23.5811095 C144.050861,7.86036983 257.377853,0 370.704846,0 C484.031838,0 597.358831,7.86036982 710.685823,23.5811095 L710.685823,23.5811095 C717.704865,24.5547922 723.272289,32.000975 724.059029,41.467178 C735.626137,180.644785 741.409692,319.822393 741.409692,459 C741.409692,598.177607 735.626137,737.355214 724.059029,876.532821 L724.05903,876.532821 C723.27229,885.999025 717.704865,893.445208 710.685824,894.418891 C597.358831,910.139631 484.031838,918 370.704846,918 C257.377853,918 144.050861,910.139631 30.7238682,894.418891 L30.7238682,894.41889 C23.7048271,893.445208 18.1374026,885.999025 17.3506626,876.532822 C5.7835542,737.355215 0,598.177607 0,459 C0,319.822393 5.78355416,180.644786 17.3506625,41.4671796 L17.3506612,41.4671794 C18.1374013,32.0009757 23.7048263,24.5547922 30.723868,23.5811095 Z" id="path-1"></path></clippath></defs></svg><svg width="742px" height="768px" viewbox="0 0 742 768" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><clippath id="myClip2"><path d="M31.223868,19.727987 C144.550861,6.57599568 257.877853,0 371.204846,0 C484.531838,0 597.858831,6.57599567 711.185823,19.727987 C718.204865,20.5425712 723.772289,26.7720575 724.559029,34.6914953 C736.126137,151.127663 741.909692,267.563832 741.909692,384 C741.909692,500.436168 736.126137,616.872336 724.559029,733.308504 C723.77229,741.227942 718.204865,747.457429 711.185824,748.272014 C597.858831,761.424005 484.531838,768 371.204846,768 C257.877853,768 144.550861,761.424005 31.2238682,748.272014 C24.2048271,747.457429 18.6374026,741.227942 17.8506626,733.308505 C6.2835542,616.872337 0.5,500.436168 0.5,384 C0.5,267.563832 6.28355416,151.127664 17.8506625,34.6914967 C18.6374013,26.7720581 24.2048263,20.5425712 31.223868,19.727987 Z" id="path-1"></path></clippath></defs></svg><div class="modal-content"><span data-dismiss="modal"><img src="images/icons-modal-close.png"></span>
           <div class="modal-body">
-            <div class="modal-success hide">
+            
+  <!-- <div class="content">
+    <div class="container">
+      <div class="row align-items-stretch no-gutters contact-wrap">
+        <div class="col-md-12">
+          <div class="form h-100">-->
+            <h3 class="text-center mb-4">Contact Us</h3> 
+            <!-- <form class="mb-5" method="post" id="contactForm" name="contactForm"> -->
+              <div class="container">
+              <div class="row">
+                <div class="col-md-12 form-groupp mb-3">
+                  <label for="" class="col-form-label">Name *</label>
+                  <input type="text" class="form-control" name="name" id="name" placeholder="Your name">
+                </div>
+                <div class="col-md-12 form-groupp mb-3">
+                  <label for="" class="col-form-label">Email *</label>
+                  <input type="text" class="form-control" name="email" id="email"  placeholder="Your email">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 form-groupp mb-3">
+                  <label for="message" class="col-form-label">Message *</label>
+                  <textarea class="form-control" name="message" id="message" cols="30" rows="4"  placeholder="Write your message"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 form-groupp">
+                  <input type="submit" value="Send Message" class="btn btn-primary rounded-0 py-2 px-4">
+                  <span class="submitting"></span>
+                </div>
+              </div>
+              </div>
+            <!-- </form> -->
+<!-- 
+            <div id="form-message-warning mt-4"></div> 
+            <div id="form-message-success">
+              Your message was sent, thank you!
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+  </div>
+          
+          <!-- <div class="modal-success hide">
               <div class="text-center">
                 <h3>Thank You!</h3>
                 <p>We will be in contact with you within 1 to 2 working dasys!</p>
@@ -322,16 +429,24 @@
             <div class="modal-form show">
               <div>
                 <div class="form-wrapper">
-                  <div class="elfsight-app-1f01fcca-f5d0-4ddc-9520-6699109ed9cc"></div>
+                  <div class="elfsight-app-1f01fcca-f5d0-4ddc-9520-6699109ed9cc">
+                    
+                  </div>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
     </div>
     <!-- <script src="js/2.22.2-moment.min.js"></script> -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+
     <script src="js/js-main.min.js"></script>
+    <script src="js/form-main.js"></script>
     <!-- <script src="js/p-platform.js"></script> -->
     <script type="text/javascript">
       $('body').toggleClass('loaded');
