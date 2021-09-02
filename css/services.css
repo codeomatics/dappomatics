@@ -1,0 +1,90 @@
+.servicePage h2{
+    font-size: 35px;
+}
+.hero-text h2 {
+    font-size: 30px !important;
+    font-family: Art Basel Headline,Playfair Display,serif;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -1px;
+    text-align: center;
+    color: #fff;
+}
+.typeWriter-text{
+    color: #dc6e1f;
+}
+.serviceFirstSec .letsTalkBtn:hover{
+    background-color: #dc6e1f;
+    color: white;
+}
+.serviceFirstSec .letsTalkBtn:hover span{
+    color: white !important;
+}
+.serviceSecondSec .letsBuildDiv{
+    box-shadow: 0 0 63px 0 rgb(11 91 165 / 40%);
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
+    margin-top: 0;
+    margin-bottom: -80px;
+    padding: 80px 50px 70px;
+    border-radius: 20px;
+    width: 100%;
+    margin: 80px 0;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.serviceSecondSec{
+    z-index: 5;
+}
+.serviceSecondSec .letsBuildDiv .getInTouchBtn{
+    box-shadow: 0 20px 70px 0 rgb(55 5 118 / 40%);
+    color: #fff;
+    background-color: #ef4b6c;
+    height: 50px;
+    padding: 16px 32px;
+    font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    font-size: .688rem;
+    line-height: 18px;
+    letter-spacing: 1.54px;
+    text-transform: uppercase;
+    width: 220px;
+    margin: 20px 0 0;
+    /* width: max-content; */
+    border-radius: 25px;
+    /* transition: all 0.2s; */
+    cursor: pointer;
+    z-index: 2;
+}
+.serviceSecondSec .letsBuildDiv .getInTouchBtn:hover{
+    background-color: #f0234c;
+
+
+}
+.serviceSecondSec .letsBuildDiv h2{
+    font-size: 35px;
+}
+.servicePage .publication{
+    color: white;
+    background-color: #563cc9;
+    padding: 80px 0;
+}
+@media (min-width: 768px){
+    .hero-text h2 {
+        font-size: 40px !important;
+    }
+    .serviceSecondSec .letsBuildDiv h2{
+        font-size: 50px;
+    }
+    .servicePage h2{
+        font-size: 50px;
+    }
+
+
+}
+@media (max-width: 991px){
+    .text-center-lg{
+        text-align: center;
+    }
+     
+}
