@@ -1,5 +1,5 @@
 .servicePage h2{
-    font-size: 35px;
+    font-size: 40px;
 }
 .hero-text h2 {
     font-size: 30px !important;
@@ -21,7 +21,7 @@
     color: white !important;
 }
 .serviceSecondSec .letsBuildDiv{
-    box-shadow: 0 0 63px 0 rgb(11 91 165 / 40%);
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
     transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
     margin-top: 0;
     margin-bottom: -80px;
@@ -32,12 +32,13 @@
     max-width: 940px;
     margin-left: auto;
     margin-right: auto;
+    background-color: white;
 }
 .serviceSecondSec{
     z-index: 5;
 }
 .serviceSecondSec .letsBuildDiv .getInTouchBtn{
-    box-shadow: 0 20px 70px 0 rgb(55 5 118 / 40%);
+    box-shadow: 0 20px 70px 0 rgb(55 5 118 / 30%);
     color: #fff;
     background-color: #ef4b6c;
     height: 50px;
@@ -87,4 +88,99 @@
         text-align: center;
     }
      
+}
+
+/* service section */
+.service-container{
+    z-index: 10;
+    padding: 100px 0 84px;
+}
+.services-col{
+    padding: 50px 20px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    text-align: center;
+    height: 200px;
+    position: relative;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.service-container .col-hover::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    background: #563cc9;
+    transition: width .3s;
+    margin-top: -26px;
+}
+.service-container .col-hover:hover::after {
+    width: 100%;
+    /* transition: width .3s; */
+}
+.services-col .circle {
+    position: absolute;
+    top: -36px;
+    left: calc(50% - 36px);
+    transition: 0.2s;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 72px;
+    height: 72px;
+    background: #563cc9;
+}
+
+.services-col img{
+    width: 30px;
+}
+.services-col p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    color: #626881;
+}
+.services-col .icon{
+    color: #fff;
+    font-size: 24px;
+    line-height: 0;
+}
+
+.service-container .heading{
+    position: relative;
+    text-align: center;
+}
+.service-container .heading::before{
+    width: 40px;
+    height: 2px;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    background-color: #ef4b6c;
+    transform: translateX(-50%);
+}
+.z-1{
+    z-index: 1;
+}
+.z-10{
+    z-index: 10;
+}
+.z-30{
+    z-index: 10;
+}
+.z-50{
+    z-index: 10;
+}
+.filter-invert{
+    filter: invert(1);
 }
