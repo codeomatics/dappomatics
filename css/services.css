@@ -11,7 +11,7 @@
     color: #fff;
 }
 .typeWriter-text{
-    color: #dc6e1f;
+    color: #f56613;
 }
 .serviceFirstSec .letsTalkBtn:hover{
     background-color: #dc6e1f;
@@ -35,6 +35,9 @@
     background-color: white;
 }
 .serviceSecondSec{
+    position: relative;
+    margin-bottom: -200px;
+
     z-index: 5;
 }
 .serviceSecondSec .letsBuildDiv .getInTouchBtn{
@@ -72,7 +75,7 @@
 }
 @media (min-width: 768px){
     .hero-text h2 {
-        font-size: 40px !important;
+        font-size: 35px !important;
     }
     .serviceSecondSec .letsBuildDiv h2{
         font-size: 50px;
@@ -183,4 +186,62 @@
 }
 .filter-invert{
     filter: invert(1);
+}
+
+/* desscription */
+.desc-section{
+    margin-top: 200px;
+    margin-bottom: 120px;
+}
+.desc-section .heading{
+    position: relative;
+    /* text-align: center; */
+}
+.fs-20{
+    font-size: 20px;
+}
+/* .desc-section .heading::before{
+    width: 40px;
+    height: 2px;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    background-color: #ef4b6c;
+    transform: translateX(-50%);
+} */
+.descLogoDiv{
+    border-top: 2px solid #e0dee6;
+    position: relative;
+    z-index: 1;
+    justify-content: center;
+    display: flex;
+}
+.descLogoDiv .circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #d9d7e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    margin-top: -80px;
+}
+.descLogoDiv .icon{
+    font-size: 110px;
+}
+.lh1-5{
+    line-height: 1.5;
+}
+.mt-100{
+    margin-top: 100px;
+}
+.footerAddressRow{
+    justify-content: center;
+    text-align: center;
+    /* padding-top: 70px; */
+    color: white;
+    border-top: 1px solid #af98da;
+    padding-top: 20px;
 }
