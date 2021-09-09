@@ -235,7 +235,7 @@
               <div class="services-col">
                 <div class="circle"><i class="fab fa-ethereum icon"></i></div>
                 <h4>Ethereum Token Development</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, maiores assumenda quis facere consequatur, labore quia autem voluptatibus itaque in, necessitatibus nostrum reprehenderit impedit ratione expedita nobis nisi pariatur ea.</p>
+                <p>Developing ERC20,BEP20,TRC20 tokens having latest functionalities like (reflection, tx and anti-dump) as per project requirements.</p>
               </div>
             </div>
             <div class="col-md-6 col-lg-4 mt-2 col-hover">
