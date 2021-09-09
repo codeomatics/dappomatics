@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1, maximum-scale=1, user-scalable=no">
-    <meta name="description" content="We Are Codeomatics A team of passionate designers and developers from Pakistan">
+    <meta name="description" content="We are Codeomatics, A team of passionate blockchain enthusiasts and developers.">
     <meta http-equiv="Cache-control" content="public">
     <title>Codeomatics</title>
     <link rel="preload" as="font" href="fonts/Basel-Regular.woff" type="font/woff" crossorigin="anonymous">
@@ -18,31 +18,21 @@
     <link rel="stylesheet" href="css/form-style.css">
     <link rel="stylesheet" href="css/services.css">
 
-<?php 
-$msie = strpos($_SERVER["HTTP_USER_AGENT"], 'MSIE') ? true : false; 
-$firefox= strpos($_SERVER["HTTP_USER_AGENT"], 'Firefox') ? true : false;
-$safar = strpos($_SERVER["HTTP_USER_AGENT"], 'Safari') ? true : false;
-$chrome= strpos($_SERVER["HTTP_USER_AGENT"], 'Chrome') ? true : false;
-if ($msie || $safar || $firefox) {
-echo '
-<link rel="stylesheet" href="css/css-main.min.css">
-<link rel="stylesheet" href="css/Icomoon-style.css">
-';
-}else{
-echo '
-<link rel="preload" as="style" href="css/css-main.min.css" type="text/css" onload="this.onload=null;this.rel='.'stylesheet'.'">
-<link rel="preload" href="css/Icomoon-style.css" as="style" type="text/css" onload="this.onload=null;this.rel='.'stylesheet'.'">
-';
-}
-?>
-
-  
-      <link rel="stylesheet" href="css/css-main.min.css">
-      <link rel="stylesheet" href="css/Icomoon-style.css">
-  
-        <link rel="preload" as="style" href="css/css-main.min.css" type="text/css" >
-        <link rel="preload" href="css/Icomoon-style.css" as="style" type="text/css" >
-  
+    <?php
+      $msie = strpos($_SERVER["HTTP_USER_AGENT"], 'MSIE') ? true : false; 
+      $firefox= strpos($_SERVER["HTTP_USER_AGENT"], 'Firefox') ? true : false;
+      $safar = strpos($_SERVER["HTTP_USER_AGENT"], 'Safari') ? true : false;
+      $chrome= strpos($_SERVER["HTTP_USER_AGENT"], 'Chrome') ? true : false;
+      if ($msie || $safar || $firefox) {
+        echo '
+        <link rel="stylesheet" href="css/css-main.min.css">
+        <link rel="stylesheet" href="css/Icomoon-style.css">';
+      }else{
+        echo '
+        <link rel="preload" as="style" href="css/css-main.min.css" type="text/css" onload="this.onload=null;this.rel='.'stylesheet'.'">
+        <link rel="preload" href="css/Icomoon-style.css" as="style" type="text/css" onload="this.onload=null;this.rel='.'stylesheet'.'">';
+      }
+    ?>
 
     <!-- Styles-->
     
