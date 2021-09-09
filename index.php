@@ -98,7 +98,7 @@
                   <span
                      class="txt-rotate typeWriter-text"
                      data-period="500"
-                     data-rotate='[ "Smart Contracts.", "Decentralized Apps.", "Consultancy." ]'></span>
+                     data-rotate='[ "Blockchain Solutions.", "Decentralized Apps.", "Consultancy.", "Smart Contracts." ]'></span>
                 </h2>
                 <!-- <p>A team of passionate designers and developers from Pakistan</p> -->
                 <div class="hero-button-float">
