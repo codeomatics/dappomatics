@@ -242,21 +242,21 @@
               <div class="services-col">
                 <div class="circle"><img src="./images/solidity.png" class="filter-invert" alt="Solidity"></div>
                 <h4>Solidity Development</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, maiores assumenda quis facere consequatur, labore quia autem voluptatibus itaque in, necessitatibus nostrum reprehenderit impedit ratione expedita nobis nisi pariatur ea.</p>
+                <p>Customized smartcontracts</p>
               </div>
             </div>
             <div class="col-md-6 col-lg-4 mt-2 col-hover">
               <div class="services-col">
                 <div class="circle"><img src="./images/decentralized.svg" alt="Dapps"></div>
                 <h4>DApps Development</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, maiores assumenda quis facere consequatur, labore quia autem voluptatibus itaque in, necessitatibus nostrum reprehenderit impedit ratione expedita nobis nisi pariatur ea.</p>
+                <p>Decentralized Apps</p>
               </div>
             </div>
             <div class="col-md-6 col-lg-4 mt-2 col-hover">
               <div class="services-col">
                 <div class="circle"><img src="./images/nft.svg" alt="NFT"></div>
                 <h4>NFT Development Solutions</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, maiores assumenda quis facere consequatur, labore quia autem voluptatibus itaque in, necessitatibus nostrum reprehenderit impedit ratione expedita nobis nisi pariatur ea.</p>
+                <p>NFT Marketplaces</p>
               </div>
             </div>
             <div class="col-md-6 col-lg-4 mt-2 col-hover">
@@ -270,8 +270,8 @@
             <div class="col-md-6 col-lg-4 mt-2 col-hover">
               <div class="services-col">
                 <div class="circle"><img src="./images/ico.svg" alt="ICO"></div>
-                <h4>ICO Development</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, maiores assumenda quis facere consequatur, labore quia autem voluptatibus itaque in, necessitatibus nostrum reprehenderit impedit ratione expedita nobis nisi pariatur ea.</p>
+                <h4>IFO/IDO/ICO Development</h4>
+                <p>Coin IFO campaigns developments</p>
               </div>
             </div>
           </div>
