@@ -486,15 +486,15 @@
                     <div class="d-flex justify-content-center footerContactDiv">
                       <ul>
                         <li >
-                          <a href="mailto:someone@example.com">
+                          <a href="mailto:contact@codeomatics.com">
                             <span class="mr-2"><i class="fas fa-envelope"></i></span>
-                            <address class="mb-0">example@gmail.com</address>
+                            <address class="mb-0">contact@codeomatics.com</address>
                           </a>
                         </li>
                         <li >
-                          <a href="tel:+9212345678">
+                          <a href="tel:+923352491559">
                             <span class="mr-2"><i class="fa fa-phone phoneIcon"></i></span>
-                            <address class="mb-0 ">9212345678</address>
+                            <address class="mb-0 ">+923352491559</address>
                           </a>
                         </li>
                       </ul>
