@@ -17,6 +17,8 @@
     <!-- Style -->
     <link rel="stylesheet" href="css/form-style.css">
     <link rel="stylesheet" href="css/services.css">
+    <!-- annimation -->
+    <link rel="stylesheet" href="css/annimate.css">
 
     <?php
       $msie = strpos($_SERVER["HTTP_USER_AGENT"], 'MSIE') ? true : false; 
@@ -120,7 +122,7 @@
               </div>
               <div class="services-container">
                 <div class="row justify-content-center">
-                  <div class="col-sm-4 col-6">
+                  <div class="col-sm-4 col-6 animatable fadeInUp">
                     <div class="service-wrapper">
                       <div class="service-image">
                         <div class="service-icon">
@@ -136,7 +138,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-sm-4 col-6">
+                  <div class="col-sm-4 col-6 animatable fadeInUp">
                     <div class="service-wrapper">
                       <div class="service-image">
                         <div class="service-icon">
@@ -152,7 +154,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-sm-4 col-6">
+                  <div class="col-sm-4 col-6 animatable fadeInUp">
                     <div class="service-wrapper">
                       <div class="service-image">
                         <div class="service-icon">
@@ -169,7 +171,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-sm-4 col-6">
+                  <div class="col-sm-4 col-6 animatable fadeInUp">
                     <div class="service-wrapper">
                       <div class="service-image">
                         <div class="service-icon">
@@ -185,7 +187,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-sm-4 col-6">
+                  <div class="col-sm-4 col-6 animatable fadeInUp">
                     <div class="service-wrapper">
                       <div class="service-image">
                         <div class="service-icon">
@@ -202,7 +204,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-sm-4 col-6">
+                  <div class="col-sm-4 col-6 animatable fadeInUp">
                     <div class="service-wrapper">
                       <div class="service-image">
                         <div class="service-icon">
@@ -231,35 +233,35 @@
             <h2>Our Special Services</h2>
           </div>
           <div class="row my-5 mx-0">
-            <div class="col-md-6 col-lg-4 mt-2  col-hover">
+            <div class="col-md-6 col-lg-4 mt-2  col-hover animatable bounceInLeft">
               <div class="services-col">
                 <div class="circle"><i class="fab fa-ethereum icon"></i></div>
                 <h4>Ethereum Token Development</h4>
                 <p>Developing ERC20,BEP20,TRC20 tokens having latest functionalities like (reflection, tx and anti-dump) as per project requirements.</p>
               </div>
             </div>
-            <div class="col-md-6 col-lg-4 mt-2 col-hover">
+            <div class="col-md-6 col-lg-4 mt-2 col-hover animatable bounceIn">
               <div class="services-col">
                 <div class="circle"><img src="./images/solidity.png" class="filter-invert" alt="Solidity"></div>
                 <h4>Solidity Development</h4>
                 <p>Customized smartcontracts</p>
               </div>
             </div>
-            <div class="col-md-6 col-lg-4 mt-2 col-hover">
+            <div class="col-md-6 col-lg-4 mt-2 col-hover animatable bounceInRight">
               <div class="services-col">
                 <div class="circle"><img src="./images/decentralized.svg" alt="Dapps"></div>
                 <h4>DApps Development</h4>
                 <p>Decentralized Apps</p>
               </div>
             </div>
-            <div class="col-md-6 col-lg-4 mt-2 col-hover">
+            <div class="col-md-6 col-lg-4 mt-2 col-hover animatable bounceInLeft">
               <div class="services-col">
                 <div class="circle"><img src="./images/nft.svg" alt="NFT"></div>
                 <h4>NFT Development Solutions</h4>
                 <p>NFT Marketplaces</p>
               </div>
             </div>
-            <div class="col-md-6 col-lg-4 mt-2 col-hover">
+            <div class="col-md-6 col-lg-4 mt-2 col-hover animatable bounceIn">
               <div class="services-col">
                 <div class="circle"><img src="./images/blockchain.svg" alt="Blockchain"></div>
                 <h4>Blockchain Consulting</h4>
@@ -267,7 +269,7 @@
               </div>
             </div>
            
-            <div class="col-md-6 col-lg-4 mt-2 col-hover">
+            <div class="col-md-6 col-lg-4 mt-2 col-hover animatable bounceInRight">
               <div class="services-col">
                 <div class="circle"><img src="./images/ico.svg" alt="ICO"></div>
                 <h4>IFO/IDO/ICO Development</h4>
@@ -285,13 +287,13 @@
                 <h2>Our Projects</h2>
                 <p>We&rsquo;ve been busy</p>
               </div>
-              <div class="clients-container">
+              <div class="clients-container animatable bounceInRight">
                 <div class="clients-group">
                   <div class="clients-item hoopsai"><img src="images/bitcoinpk.png"></div>
                 </div>
                 <div class="clients-group">
                   <div class="clients-item agoda"><img src="images/studio.png"></div>
-                  <div class="clients-item getsafe"><img src="images/LJO.png"></div>
+                  <div class="clients-item getsafe"><img src="images/trustVibe.svg"></div>
                   <div class="clients-item getsafe"><img src="images/lucrar.png"></div>
                 </div>
                 <div class="clients-group">
@@ -320,7 +322,7 @@
                 <h2>Our Blockchain Services</h2>
               </div>
               <div class="works-container">
-                <div class="work-list crisp-works">
+                <div class="work-list crisp-works animatable fadeInUp">
                   <div class="work-wrapper d-flex">
                     <div class="work-description">
                       <div class="work-detail d-flex flex-column justify-content-between">
@@ -334,7 +336,7 @@
                     <div class="work-image d-flex justify-content-center align-items-center"><img src="images/images-crisp-works.png"></div>
                   </div>
                 </div>
-                <div class="work-list lifecycle-works">
+                <div class="work-list lifecycle-works animatable fadeInUp">
                   <div class="work-wrapper d-flex">
                     <div class="work-description">
                       <div class="work-detail d-flex flex-column justify-content-between">
@@ -348,7 +350,7 @@
                     <div class="work-image d-flex justify-content-center align-items-center"><img src="images/images-lifecycle-works.png"></div>
                   </div>
                 </div>
-                <div class="work-list calendar-works">
+                <div class="work-list calendar-works animatable fadeInUp">
                   <div class="work-wrapper d-flex">
                     <div class="work-description">
                       <div class="work-detail d-flex flex-column justify-content-between">
@@ -473,7 +475,31 @@
                   <h3>Pakistan</h3>
                   <div class="d-flex justify-content-center">
                     <span class="mr-2"><i class="fas fa-map-marker-alt"></i></span>
-                    <address>Ayra Heights, Ground Floor 002, Johar Block 3, Karachi </address>
+                    <address class="mb-0">Ayra Heights, Ground Floor 002, Johar Block 3, Karachi </address>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-3">
+                <div>
+                  <h3>Contact</h3>
+                  <div >
+                    <div class="d-flex justify-content-center footerContactDiv">
+                      <ul>
+                        <li >
+                          <a href="mailto:someone@example.com">
+                            <span class="mr-2"><i class="fas fa-envelope"></i></span>
+                            <address class="mb-0">example@gmail.com</address>
+                          </a>
+                        </li>
+                        <li >
+                          <a href="tel:+9212345678">
+                            <span class="mr-2"><i class="fa fa-phone phoneIcon"></i></span>
+                            <address class="mb-0 ">9212345678</address>
+                          </a>
+                        </li>
+                      </ul>
+                     
+                    </div>                    
                   </div>
                 </div>
               </div>
@@ -569,6 +595,8 @@
     <script src="js/js-main.min.js"></script>
     <script src="js/form-main.js"></script>
     <!-- <script src="js/p-platform.js"></script> -->
+     <!-- annimation -->
+     <script src="js/annimate.js"></script>
     <script type="text/javascript">
       $('body').toggleClass('loaded');
       // setTimeout(()=>{
@@ -576,6 +604,7 @@
       // },400)
     </script>
      <!-- text typing -->
+     <script src="./js/typeWriterText.js"></script>
      <script>
       var TxtRotate = function(el, toRotate, period) {
       this.toRotate = toRotate;
