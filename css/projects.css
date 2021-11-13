@@ -1,0 +1,211 @@
+:root {
+    --primary-color: slategrey;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  .projectPage{
+      padding-bottom: 80px;
+  }
+ 
+ .projectPage .carousel-container {
+    border-radius: 30px;
+    overflow: hidden;
+    max-width: 800px;
+    position: relative;
+    box-shadow: 0 0 30px -20px #223344;
+    margin: auto;
+    z-index: 0;
+    margin-top: 40px !important;
+  }
+  
+  /* Hide the images by default */
+  .projectPage .mySlides {
+    display: none;
+  }
+  .projectPage .mySlides1 {
+    display: none;
+  }
+  .projectPage .mySlides img {
+    display: block;
+    width: 100%;
+  }
+  .projectPage .mySlides1 img {
+    display: block;
+    width: 100%;
+  }
+  
+  
+  /* Next & previous buttons */
+  .projectPage .prev,
+  .projectPage .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: auto;
+    padding: 20px;
+    color: white !important;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 0 8px 8px 0;
+    background: rgba(173, 216, 230, 0.1);
+    user-select: none;
+  }
+  .projectPage .next {
+    right: 0;
+    border-radius: 8px 0 0 8px;
+  }
+  .projectPage .prev:hover,
+  .projectPage .next:hover {
+    background-color: rgba(173, 216, 230, 0.3);
+  }
+  
+  /* Caption text */
+  .projectPage .text {
+    color: #f2f2f2;
+    background-color: rgba(10, 10, 20, 0.1);
+    backdrop-filter: blur(6px);
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .projectPage .number {
+    color: #f2f2f2;
+    font-size: 16px;
+    background-color: rgba(173, 216, 230, 0.15);
+    backdrop-filter: blur(6px);
+    border-radius: 10px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+   .projectPage .dots-container {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  
+  /* The dots/bullets/indicators */
+  .projectPage .dots {
+    cursor: pointer;
+    height: 14px;
+    width: 14px;
+    margin: 0 4px;
+    background-color: rgba(173, 216, 230, 0.2);
+    backdrop-filter: blur(2px);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .projectPage .active,
+  .projectPage .dots:hover {
+    background-color: rgba(173, 216, 230, 0.8);
+  }
+  
+  /* Fading animation */
+  .projectPage .animate {
+    -webkit-animation-name: animate;
+    -webkit-animation-duration: 1s;
+    animation-name: animate;
+    animation-duration: 2s;
+  }
+  
+  @keyframes animate {
+    from {
+      transform: scale(1.1) rotateY(10deg);
+    }
+    to {
+      transform: scale(1) rotateY(0deg);
+    }
+  }
+
+  .coverSection{
+    height: 600px;
+    display: flex;
+    -ms-flex-pack: 50%;
+    justify-content: 50%;
+    -ms-flex-align: center;
+    align-items: center;
+    background-image: linear-gradient(to top right,#450b7c,#563cc9,#49e9fb);
+  }
+  .coverSection .project_DetailDiv{
+    position: relative;
+    width: 100%;
+  }
+  .coverSection .project_DetailDiv h1{
+    text-align: center;
+    margin-bottom: 45px;
+  }
+  .coverSection .project_DetailDiv h1::after{
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 5px;
+    background-color: white;
+    left: 50%;
+    top: 65px;
+    transform: translate(-50%, -50%);
+  }
+  .coverSection .project_DetailDiv p{
+    color: white;
+    max-width: 610px;
+    margin: auto;
+    font-size: 22px;
+    line-height: 1.5;
+  }
+  .projectFeatureSec{
+    margin: 100px 0;
+  }
+  .projectFeatureSec .content{
+    max-width: 750px;
+    margin: auto;
+    padding: 40px 0 !important;
+  }
+  .projectFeatureSec .content p{
+    line-height: 1.5;
+    margin-bottom: 0;
+  }
+  .projectFeatureSec .content .functionaltyDiv{
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+  }
+  .projectFeatureSec .content .functionaltyDiv p{
+    font-weight: 600;
+  }
+  .projectFeatureSec .content  i{
+    margin-right: 15px;
+    font-size: 18px;
+  }
+  .projectFeatureSec .content .site{
+    color: #5088df;
+    border-bottom: 2px solid;
+    transition: all 0.3s;
+    font-size: 20px;
+    margin-top: 15px;
+    display: inline-block;
+    min-height: 35px;
+  }
+  .projectFeatureSec .content .site:hover{
+    border-bottom: 4px solid;
+    transition: all 0.2s;
+  }
+  .projectPage .ProjectHrLine{
+    height: 8px;
+    background-image: linear-gradient(to top right,#450b7c,#563cc9,#49e9fb);
+    position: relative;
+  }
+
+  
