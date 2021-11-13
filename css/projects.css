@@ -203,9 +203,12 @@
     transition: all 0.2s;
   }
   .projectPage .ProjectHrLine{
-    height: 8px;
-    background-image: linear-gradient(to top right,#450b7c,#563cc9,#49e9fb);
+    height: 2px;
     position: relative;
+    background: #dbdbdb;
+  }
+  .projectPage section.home-services{
+    padding: 100px 0 0 0;
   }
 
   
