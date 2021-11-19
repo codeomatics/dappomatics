@@ -475,12 +475,12 @@
 .phoneIcon{
     transform: rotateY(180deg);
 }
-.footerContactDiv ul{
+.footerContactDiv .ul{
     list-style: none;
     margin-bottom: 0;
     padding-left: 0;
 }
-.footerContactDiv a{
+.footerContactDiv .a{
     display: flex;
     text-decoration: none;
     color: #fff;
