@@ -475,19 +475,19 @@
 .phoneIcon{
     transform: rotateY(180deg);
 }
-.footerContactDiv .ul{
-    list-style: none;
-    margin-bottom: 0;
-    padding-left: 0;
+ .footerContactDiv ul{
+    list-style: none !important;
+    margin-bottom: 0 !important;
+    padding-left: 0 !important;
 }
-.footerContactDiv .a{
-    display: flex;
-    text-decoration: none;
-    color: #fff;
-    margin-bottom: 2px;
+.footerContactDiv a{
+    display: flex !important;
+    text-decoration: none !important;
+    color: #fff !important;
+    margin-bottom: 2px !important;
 }
 .footerContactDiv a:hover{
-    text-decoration: underline;
-    color: #fff;
-    opacity: 0.8;
+    text-decoration: underline !important;
+    color: #fff !important;
+    opacity: 0.8 !important;
 }
