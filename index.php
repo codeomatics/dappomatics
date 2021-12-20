@@ -281,7 +281,8 @@
 
         <!-- our projects/3rd section -->
 
-        <section class="home-clients"><div class="container">
+        <section class="home-clients">
+          <div class="container">
             <div class="clients-section">
               <div class="section-title text-center">
                 <h2>Our Projects</h2>
@@ -292,20 +293,20 @@
                   <div class="clients-item hoopsai"><img src="images/bitcoinpk.png"></div>
                 </div>
                 <div class="clients-group">
-                  <div class="clients-item agoda"><img src="images/studio.png"></div>
-                  <div class="clients-item getsafe"><img src="images/trustVibe.svg"></div>
-                  <div class="clients-item getsafe"><img src="images/lucrar.png"></div>
+                  <div class="clients-item agoda"><a href="projects.html#footwear"><img src="images/studio.png"></a></div>
+                  <div class="clients-item getsafe"><a href="projects.html#trusvibe"><img src="images/trustVibe.svg"></a></div>
+                  <div class="clients-item getsafe"><a href="projects.html#lucrar"><img src="images/lucrar.png"></a></div>
                 </div>
                 <div class="clients-group">
                   <div class="clients-item anyleads"><img src="images/readyhai.png"></div>
-                  <div class="clients-item grab"><img src="images/handier.png"></div>
-                  <div class="clients-item anyleads connect"><img src="images/connect.png"></div>
+                  <div class="clients-item grab"><a href="projects.html#handier"> <img src="images/handier.png"></a></div>
+                  <div class="clients-item anyleads connect"><a href="projects.html#connect"> <img src="images/connect.png"></a></div>
                   <div class="clients-item anyleads connect"><img src="images/sentry.png"></div>
                 </div>
                 <div class="clients-group">
                   <div class="clients-item teachable"><img src="images/certifypk.png"></div>
-                  <div class="clients-item flyr"><img src="images/motor.png"></div>
-                  <div class="clients-item empire"><img src="images/empireToken.svg"></div>
+                  <div class="clients-item flyr"><a href="projects.html#motor"><img src="images/motor.png"></a></div>
+                  <div class="clients-item empire"><a href="projects.html#empire"> <img src="images/empireToken.svg"></a></div>
                 </div>
                 <div class="clients-group">
                   <div class="clients-item roger"><img src="images/pumpify.png"></div>
@@ -484,22 +485,23 @@
                   <h3>Contact</h3>
                   <div >
                     <div class="d-flex justify-content-center footerContactDiv">
-                      <ul  class="ul">
-                        <li >
-                          <a class="a" href="mailto:contact@codeomatics.com">
+                      <ul class="ul" style="list-style: none;margin-bottom: 0;padding-left: 0;">
+                        <li>
+                          <a class="a" href="mailto:contact@codeomatics.com" style="display: flex;text-decoration: none;color: #fff;margin-bottom: 2px;">
                             <span class="mr-2"><i class="fas fa-envelope"></i></span>
                             <address class="mb-0">contact@codeomatics.com</address>
                           </a>
                         </li>
                         <li >
-                          <a class="a" href="tel:+923352491559">
-                            <span class="mr-2"><i class="fa fa-phone phoneIcon"></i></span>
+                          <a class="a" href="tel:+923352491559" style="display: flex;text-decoration: none;color: #fff;margin-bottom: 2px;">
+                            <span class="mr-2"><i class="fa fa-phone phoneIcon" style="transform: rotateY(180deg)"></i></span>
                             <address class="mb-0 ">+923352491559</address>
                           </a>
                         </li>
                       </ul>
                      
-                    </div>                    
+                    </div>
+
                   </div>
                 </div>
               </div>
@@ -548,7 +550,7 @@
               </div>
               <div class="row">
                 <div class="col-md-12 form-groupp">
-                  <input type="submit" value="Send Message" class="btn btn-primary rounded-0 py-2 px-4">
+                  <input type="submit" value="Send Message" class="btn btn-primary py-2 px-4">
                   <span class="submitting"></span>
                 </div>
               </div>

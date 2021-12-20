@@ -183,7 +183,7 @@
     justify-content: 50%;
     -ms-flex-align: center;
     align-items: center;
-    background-image: linear-gradient(to top right,#450b7c,#563cc9,#49e9fb);
+    background-image: linear-gradient(to bottom right,#450b7c,#563cc9,#49e9fb);
   }
   .coverSection .project_DetailDiv{
     position: relative;
