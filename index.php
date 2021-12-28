@@ -378,7 +378,7 @@
             <div class="">
               <div class="teamHeading"> MEET OUR TEAM </div>
             </div>
-            <div class="row">
+            <div class="row jc-center">
               <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
                   <div class="teamCard">
                     <div class="cardInner1"></div>
@@ -393,9 +393,9 @@
                         <h5>Full Name</h5>
                         <div class="designation">designation</div>
                         <div class="social">
-                          <i class="fab fa-facebook-f fb"></i>
-                          <i class="fab fa-linkedin linkedin" aria-hidden="true"></i>
-                          <i class="fab fa-twitter twitter"></i>
+                          <a href="#"><i class="fab fa-facebook-f fb"></i></a>
+                          <a href="#"><i class="fab fa-linkedin linkedin" aria-hidden="true"></i></a>
+                          <a href="#"><i class="fab fa-twitter twitter"></i></a>
                         </div>
                       </div>
                     </div>
@@ -415,9 +415,9 @@
                         <h5>Full Name</h5>
                         <div class="designation">designation</div>
                         <div class="social">
-                          <i class="fab fa-facebook-f fb"></i>
-                          <i class="fab fa-linkedin linkedin" aria-hidden="true"></i>
-                          <i class="fab fa-twitter twitter"></i>
+                          <a href="#"><i class="fab fa-facebook-f fb"></i></a>
+                          <a href="#"><i class="fab fa-linkedin linkedin" aria-hidden="true"></i></a>
+                          <a href="#"><i class="fab fa-twitter twitter"></i></a>
                         </div>
                       </div>
                     </div>
@@ -437,9 +437,9 @@
                         <h5>Full Name</h5>
                         <div class="designation">designation</div>
                         <div class="social">
-                          <i class="fab fa-facebook-f fb"></i>
-                          <i class="fab fa-linkedin linkedin" aria-hidden="true"></i>
-                          <i class="fab fa-twitter twitter"></i>
+                          <a href="#"><i class="fab fa-facebook-f fb"></i></a>
+                          <a href="#"><i class="fab fa-linkedin linkedin" aria-hidden="true"></i></a>
+                          <a href="#"><i class="fab fa-twitter twitter"></i></a>
                         </div>
                       </div>
                     </div>
@@ -459,9 +459,53 @@
                         <h5>Full Name</h5>
                         <div class="designation">designation</div>
                         <div class="social">
-                          <i class="fab fa-facebook-f fb"></i>
-                          <i class="fab fa-linkedin linkedin" aria-hidden="true"></i>
-                          <i class="fab fa-twitter twitter"></i>
+                          <a href="#"><i class="fab fa-facebook-f fb"></i></a>
+                          <a href="#"><i class="fab fa-linkedin linkedin" aria-hidden="true"></i></a>
+                          <a href="#"><i class="fab fa-twitter twitter"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                  <div class="teamCard">
+                    <div class="cardInner1"></div>
+                    <div class="cardInner2">
+                      <div class="inner">
+                        <div class="imageMain">
+                          <div class="imgDiv">
+                            <img src="./images/profile.jfif" alt="">
+                            
+                          </div>
+                        </div>
+                        <h5>Full Name</h5>
+                        <div class="designation">designation</div>
+                        <div class="social">
+                          <a href="#"><i class="fab fa-facebook-f fb"></i></a>
+                          <a href="#"><i class="fab fa-linkedin linkedin" aria-hidden="true"></i></a>
+                          <a href="#"><i class="fab fa-twitter twitter"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                  <div class="teamCard">
+                    <div class="cardInner1"></div>
+                    <div class="cardInner2">
+                      <div class="inner">
+                        <div class="imageMain">
+                          <div class="imgDiv">
+                            <img src="./images/profile.jfif" alt="">
+                            
+                          </div>
+                        </div>
+                        <h5>Full Name</h5>
+                        <div class="designation">designation</div>
+                        <div class="social">
+                          <a href="#"><i class="fab fa-facebook-f fb"></i></a>
+                          <a href="#"><i class="fab fa-linkedin linkedin" aria-hidden="true"></i></a>
+                          <a href="#"><i class="fab fa-twitter twitter"></i></a>
                         </div>
                       </div>
                     </div>
