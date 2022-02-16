@@ -6,44 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="description" content="We are Codeomatics, A team of passionate blockchain enthusiasts and developers.">
     <meta http-equiv="Cache-control" content="public">
-    <title>Codeomatics</title>
+    <title>Dappomatics</title>
     <link rel="preload" as="font" href="fonts/Basel-Regular.woff" type="font/woff" crossorigin="anonymous">
     <link rel="preload" as="font" href="fonts/ArtBaselHeadline-Bold.woff" type="font/woff" crossorigin="anonymous">
     <link rel="preload" as="font" href="fonts/fonts-Paperpillar.ttf" crossorigin="anonymous">
     <link rel="preload" as="font" href="css/font-awsome/webfonts/fa-brands-400.woff2" crossorigin="anonymous">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+        <?php
+        $msie = strpos($_SERVER["HTTP_USER_AGENT"], 'MSIE') ? true : false; 
+        $firefox= strpos($_SERVER["HTTP_USER_AGENT"], 'Firefox') ? true : false;
+        $safar = strpos($_SERVER["HTTP_USER_AGENT"], 'Safari') ? true : false;
+        $chrome= strpos($_SERVER["HTTP_USER_AGENT"], 'Chrome') ? true : false;
+        if ($msie || $safar || $firefox) {
+          echo '
+          <link rel="stylesheet" href="css/css-main.min.css">
+          <link rel="stylesheet" href="css/Icomoon-style.css">';
+        }else{
+          echo '
+          <link rel="preload" as="style" href="css/css-main.min.css" type="text/css" onload="this.onload=null;this.rel='.'stylesheet'.'">
+          <link rel="preload" href="css/Icomoon-style.css" as="style" type="text/css" onload="this.onload=null;this.rel='.'stylesheet'.'">';
+        }
+      ?>
     
     <!-- Style -->
     <link rel="stylesheet" href="css/form-style.css">
     <link rel="stylesheet" href="css/services.css">
     <link rel="stylesheet" href="css/index.css">
 
+  
+    <!--<link rel="stylesheet" href="css/css-main.min.css">
+    <link rel="stylesheet" href="css/Icomoon-style.css">-->
+  
+    <link rel="preload" as="style" href="css/css-main.min.css" type="text/css" >
+    <link rel="preload" href="css/Icomoon-style.css" as="style" type="text/css" >
     <!-- annimation -->
     <link rel="stylesheet" href="css/annimate.css">
-
-    <?php
-      $msie = strpos($_SERVER["HTTP_USER_AGENT"], 'MSIE') ? true : false; 
-      $firefox= strpos($_SERVER["HTTP_USER_AGENT"], 'Firefox') ? true : false;
-      $safar = strpos($_SERVER["HTTP_USER_AGENT"], 'Safari') ? true : false;
-      $chrome= strpos($_SERVER["HTTP_USER_AGENT"], 'Chrome') ? true : false;
-      if ($msie || $safar || $firefox) {
-        echo '
-        <link rel="stylesheet" href="css/css-main.min.css">
-        <link rel="stylesheet" href="css/Icomoon-style.css">';
-      }else{
-        echo '
-        <link rel="preload" as="style" href="css/css-main.min.css" type="text/css" onload="this.onload=null;this.rel='.'stylesheet'.'">
-        <link rel="preload" href="css/Icomoon-style.css" as="style" type="text/css" onload="this.onload=null;this.rel='.'stylesheet'.'">';
-      }
-    ?>
 
     <!-- Styles-->
     
     <!-- Favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/logoD2.png">
+    <link rel="icon" type="image/png" sizes="182x182" href="images/logoD2.png">
+    
     <link rel="manifest" href="favicons/site.webmanifest">
     <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
@@ -70,9 +75,10 @@
         <div class="header-container">
           <div class="container">
             <div class="header-section d-flex justify-content-between align-items-center">
-              <div class="header-logo"><a href="/"><img src="images/codeomatics.png"></a></div>
+              <div class="header-logo"><a href="/"><img src="images/logo4.png"></a></div>
               <div class="header-menu">
                 <ul class="nav nav-light"><li class="nav-item active"><a class="nav-link" href="/">Home</a></li>
+                  <li class="nav-item "><a class="nav-link" href="about.html">About Us</a></li>
                   <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
                   <li class="nav-item"><span class="nav-link" data-toggle="modal" data-target="#contactModal">Contact</span></li>
                 </ul><div class="mobile-menu"><span></span><span></span></div>
@@ -96,13 +102,13 @@
           <div class="hero-section">
             <div class="hero-container">
               <div class="hero-text">
-                <h1>We Are Codeomatics</h1>
+                <h1>We Are Dappomatics</h1>
                 <h2>
                   <span> We Offer </span>
                   <span
                      class="txt-rotate typeWriter-text"
                      data-period="500"
-                     data-rotate='[ "Blockchain Solutions.", "Decentralized Apps.", "Consultancy.", "Smart Contracts." ]'></span>
+                     data-rotate='[ "Smart Contracts.", "Decentralized Apps.", "Consultancy." ]'></span>
                 </h2>
                 <!-- <p>A team of passionate designers and developers from Pakistan</p> -->
                 <div class="hero-button-float">
@@ -270,7 +276,6 @@
                 <p>Consulting businesses to build solutions and deliver workflows about implementing blockchain solutions that can optimize business efficiency.</p>
               </div>
             </div>
-           
             <div class="col-md-6 col-lg-4 mt-2 col-hover animatable bounceInRight">
               <div class="services-col">
                 <div class="circle"><img src="./images/ico.svg" alt="ICO"></div>
@@ -372,8 +377,8 @@
           </div>
         </section>
 
-         <!-- Our team section -->
-         <section class="teamMain">
+        <!-- Our team section -->
+        <section class="teamMain">
           <div class="container">
             <div class="">
               <div class="teamHeading"> MEET OUR TEAM </div>
@@ -515,7 +520,6 @@
             </div>
           </div>
         </section>
-
 
         <!-- lets build together -->
         <section class="container serviceSecondSec">
@@ -667,53 +671,54 @@
         </div>
       </footer>
     </div>
+
     <div class="modal contact-modal fade" id="contactModal" role="dialog">
       <div class="modal-dialog modal-dialog-centered">
         <svg width="742px" height="918px" viewbox="0 0 742 918" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><clippath id="myClip"><path d="M30.723868,23.5811095 C144.050861,7.86036983 257.377853,0 370.704846,0 C484.031838,0 597.358831,7.86036982 710.685823,23.5811095 L710.685823,23.5811095 C717.704865,24.5547922 723.272289,32.000975 724.059029,41.467178 C735.626137,180.644785 741.409692,319.822393 741.409692,459 C741.409692,598.177607 735.626137,737.355214 724.059029,876.532821 L724.05903,876.532821 C723.27229,885.999025 717.704865,893.445208 710.685824,894.418891 C597.358831,910.139631 484.031838,918 370.704846,918 C257.377853,918 144.050861,910.139631 30.7238682,894.418891 L30.7238682,894.41889 C23.7048271,893.445208 18.1374026,885.999025 17.3506626,876.532822 C5.7835542,737.355215 0,598.177607 0,459 C0,319.822393 5.78355416,180.644786 17.3506625,41.4671796 L17.3506612,41.4671794 C18.1374013,32.0009757 23.7048263,24.5547922 30.723868,23.5811095 Z" id="path-1"></path></clippath></defs></svg><svg width="742px" height="768px" viewbox="0 0 742 768" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><clippath id="myClip2"><path d="M31.223868,19.727987 C144.550861,6.57599568 257.877853,0 371.204846,0 C484.531838,0 597.858831,6.57599567 711.185823,19.727987 C718.204865,20.5425712 723.772289,26.7720575 724.559029,34.6914953 C736.126137,151.127663 741.909692,267.563832 741.909692,384 C741.909692,500.436168 736.126137,616.872336 724.559029,733.308504 C723.77229,741.227942 718.204865,747.457429 711.185824,748.272014 C597.858831,761.424005 484.531838,768 371.204846,768 C257.877853,768 144.550861,761.424005 31.2238682,748.272014 C24.2048271,747.457429 18.6374026,741.227942 17.8506626,733.308505 C6.2835542,616.872337 0.5,500.436168 0.5,384 C0.5,267.563832 6.28355416,151.127664 17.8506625,34.6914967 C18.6374013,26.7720581 24.2048263,20.5425712 31.223868,19.727987 Z" id="path-1"></path></clippath></defs></svg><div class="modal-content"><span data-dismiss="modal"><img src="images/icons-modal-close.png"></span>
           <div class="modal-body">
             
-  <!-- <div class="content">
-    <div class="container">
-      <div class="row align-items-stretch no-gutters contact-wrap">
-        <div class="col-md-12">
-          <div class="form h-100">-->
-            <h3 class="text-center mb-4">Contact Us</h3> 
-            <!-- <form class="mb-5" method="post" id="contactForm" name="contactForm"> -->
-              <div class="container">
-              <div class="row">
-                <div class="col-md-12 form-groupp mb-3">
-                  <label for="" class="col-form-label">Name *</label>
-                  <input type="text" class="form-control" name="name" id="name" placeholder="Your name">
-                </div>
-                <div class="col-md-12 form-groupp mb-3">
-                  <label for="" class="col-form-label">Email *</label>
-                  <input type="text" class="form-control" name="email" id="email"  placeholder="Your email">
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12 form-groupp mb-3">
-                  <label for="message" class="col-form-label">Message *</label>
-                  <textarea class="form-control" name="message" id="message" cols="30" rows="4"  placeholder="Write your message"></textarea>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12 form-groupp">
-                  <input type="submit" value="Send Message" class="btn btn-primary py-2 px-4">
-                  <span class="submitting"></span>
-                </div>
-              </div>
-              </div>
-            <!-- </form> -->
-<!-- 
-            <div id="form-message-warning mt-4"></div> 
-            <div id="form-message-success">
-              Your message was sent, thank you!
-            </div>
+        <!-- <div class="content">
+          <div class="container">
+            <div class="row align-items-stretch no-gutters contact-wrap">
+              <div class="col-md-12">
+                <div class="form h-100">-->
+                  <h3 class="text-center mb-4">Contact Us</h3> 
+                  <!-- <form class="mb-5" method="post" id="contactForm" name="contactForm"> -->
+                    <div class="container">
+                    <div class="row">
+                      <div class="col-md-12 form-groupp mb-3">
+                        <label for="" class="col-form-label">Name *</label>
+                        <input type="text" class="form-control" name="name" id="name" placeholder="Your name">
+                      </div>
+                      <div class="col-md-12 form-groupp mb-3">
+                        <label for="" class="col-form-label">Email *</label>
+                        <input type="text" class="form-control" name="email" id="email"  placeholder="Your email">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12 form-groupp mb-3">
+                        <label for="message" class="col-form-label">Message *</label>
+                        <textarea class="form-control" name="message" id="message" cols="30" rows="4"  placeholder="Write your message"></textarea>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12 form-groupp">
+                        <input type="submit" value="Send Message" class="btn btn-primary  py-2 px-4">
+                        <span class="submitting"></span>
+                      </div>
+                    </div>
+                    </div>
+                  <!-- </form> -->
+      <!-- 
+                  <div id="form-message-warning mt-4"></div> 
+                  <div id="form-message-success">
+                    Your message was sent, thank you!
+                  </div>
 
-          </div>
-        </div>
-      </div>
-    </div> -->
+                </div>
+              </div>
+            </div>
+          </div> -->
 
   </div>
           
@@ -736,6 +741,7 @@
         </div>
       </div>
     </div>
+
     <!-- <script src="js/2.22.2-moment.min.js"></script> -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
@@ -745,17 +751,15 @@
     <script src="js/js-main.min.js"></script>
     <script src="js/form-main.js"></script>
     <!-- <script src="js/p-platform.js"></script> -->
-     <!-- annimation -->
-     <script src="js/annimate.js"></script>
+    <!-- annimation -->
+    <script src="js/annimate.js"></script>
     <script type="text/javascript">
       $('body').toggleClass('loaded');
       // setTimeout(()=>{
       //   document.getElementById('content').style.display =""
       // },400)
     </script>
-  
-      <!-- text typing -->
+     <!-- text typing -->
    <script src="./js/typeWriterText.js"></script>
-    
   </body>
 </html>
