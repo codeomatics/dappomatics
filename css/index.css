@@ -1,12 +1,13 @@
 .teamMain{
-    background-image: linear-gradient(to bottom right,#c04de2,#340c7f);
+    /*background-image: linear-gradient(to bottom right,#c04de2,#340c7f);*/
+    background-image: linear-gradient(to bottom left,#1e4abf,#acbaf1);
     padding: 70px 0 55px 0;
     /* color: white; */
     margin: 100px 0;
 }
 .teamMain .teamHeading{
     width: max-content;
-    margin: 0px auto 25px auto;
+    margin: 0px auto 40px auto;
     padding: 12px 50px;
     /* display: flex; */
     /* align-items: center; */
@@ -28,7 +29,8 @@
 }
 .teamMain .teamCard .cardInner1{
     height: 100px;
-    background-image: linear-gradient(to bottom right,#c04de2,#340c7f);
+    /*background-image: linear-gradient(to bottom right,#c04de2,#340c7f);*/
+    background-image: linear-gradient(to bottom left,#7d9df3,#042889);
 }
 .teamMain .teamCard .cardInner2{
     display: flex;
@@ -42,7 +44,8 @@
     width: 110px;
     position: relative;
     height: 110px;
-    background-image: linear-gradient(to top left,#c04de2,#340c7f);
+    /*background-image: linear-gradient(to top left,#c04de2,#340c7f);*/
+    background-image: linear-gradient(to bottom left,#537ded,#3c3b82);
     border-radius: 50%;
     display: flex;
     justify-content: center;
