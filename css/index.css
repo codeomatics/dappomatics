@@ -8,7 +8,7 @@
 .teamMain .teamHeading{
     width: max-content;
     margin: 0px auto 40px auto;
-    padding: 12px 50px;
+    padding: 12px 50px 0px 50px;
     /* display: flex; */
     /* align-items: center; */
     background-color: white;
@@ -16,6 +16,7 @@
     border: 6px solid #f5f6fa;
     font-size: 30px;
     font-weight: 700;
+    font-family: Art Basel Headline,Playfair Display,serif;
 }
 .teamMain .teamCard{
     border: 8px solid #3c3b82;
