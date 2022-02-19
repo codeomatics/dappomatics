@@ -396,6 +396,7 @@
                           <a href="https://www.facebook.com/affan.ak43" target="_blank"><i class="fab fa-facebook-f fb"></i></a>
                           <a href="https://www.linkedin.com/in/affanak/" target="_blank"><i class="fab fa-linkedin linkedin" aria-hidden="true"></i></a>
                           <a href="https://twitter.com/affanak43" target="_blank"><i class="fab fa-twitter twitter"></i></a>
+                          <a href="https://affankhan.co" target="_blank"><i class="fa fa-link twitter"></i></a>
                         </div>
                       </div>
                     </div>
@@ -452,16 +453,16 @@
                       <div class="inner">
                         <div class="imageMain">
                           <div class="imgDiv">
-                            <img src="./images/profile.jfif" alt="">
+                            <img src="https://scontent.fkhi17-1.fna.fbcdn.net/v/t31.18172-8/26685653_1949027955415404_5216536695390572009_o.jpg?_nc_cat=100&ccb=1-5&_nc_sid=174925&_nc_eui2=AeGa3_YO7xJ_Ni6rEtCz1QIOEvAVM5u0NVAS8BUzm7Q1UMTGHZDlty5Y7_4H2_Lm3Pt8UJVCpFeNXCDAIxPaKdId&_nc_ohc=uFEnTWPM32IAX_UDad3&_nc_ht=scontent.fkhi17-1.fna&oh=00_AT_aQ7blfNd6jl8potDmXQElTWKVzvro8UFYh4nJ1XcBDQ&oe=6234ED84" alt="">
                             
                           </div>
                         </div>
-                        <h5>Mustafa</h5>
+                        <h5>Mustafa Ahmed</h5>
                         <div class="designation">Backend Developer</div>
                         <div class="social">
-                          <a href="#"><i class="fab fa-facebook-f fb"></i></a>
-                          <a href="#"><i class="fab fa-linkedin linkedin" aria-hidden="true"></i></a>
-                          <a href="#"><i class="fab fa-twitter twitter"></i></a>
+                          <a href="https://www.facebook.com/profile.php?id=100009246540814" target="_blank"><i class="fab fa-facebook-f fb"></i></a>
+                          <!-- <a href="#"><i class="fab fa-linkedin linkedin" aria-hidden="true"></i></a> -->
+                          <a href="https://twitter.com/mustafaalvi21" target="_blank"><i class="fab fa-twitter twitter"></i></a>
                         </div>
                       </div>
                     </div>
@@ -481,8 +482,8 @@
                         <h5>Ahsan Iqbal</h5>
                         <div class="designation">Full Stack Developer</div>
                         <div class="social">
-                          <a href=""><i class="fab fa-facebook-f fb"></i></a>
-                          <a href=""><i class="fab fa-linkedin linkedin" aria-hidden="true"></i></a>
+                          <a href="https://www.facebook.com/ahsan.iqbalshaikh.5" target="_blank"><i class="fab fa-facebook-f fb"></i></a>
+                          <a href="https://www.linkedin.com/in/ahsan-iqbal-b27212194/" target="_blank"><i class="fab fa-linkedin linkedin" aria-hidden="true"></i></a>
                           <!-- <a href="#"><i class="fab fa-twitter twitter"></i></a> -->
                         </div>
                       </div>
