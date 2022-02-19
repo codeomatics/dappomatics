@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1, maximum-scale=1, user-scalable=no">
-    <meta name="description" content="We are Codeomatics, A team of passionate blockchain enthusiasts and developers.">
+    <meta name="description" content="We are Dappomaitcs, A team of passionate blockchain enthusiasts and developers.">
     <meta http-equiv="Cache-control" content="public">
     <title>Dappomatics</title>
     <link rel="preload" as="font" href="fonts/Basel-Regular.woff" type="font/woff" crossorigin="anonymous">
@@ -99,11 +99,11 @@
               <div class="hero-text">
                 <h1>We Are Dappomatics</h1>
                 <h2>
-                  <span> We Offer </span>
+                  <span> Building </span>
                   <span
                      class="txt-rotate typeWriter-text"
                      data-period="500"
-                     data-rotate='[ "Smart Contracts.", "Decentralized Apps.", "Consultancy." ]'></span>
+                     data-rotate='["Decentralized Apps.", "Smart Contracts.", "Consultancy.", "Customized Blockchains"]'></span>
                 </h2>
                 <!-- <p>A team of passionate designers and developers from Pakistan</p> -->
                 <div class="hero-button-float">
@@ -439,7 +439,7 @@
                         <div class="social">
                           <a href="https://www.facebook.com/ammarkhalid237" target="_blank"><i class="fab fa-facebook-f fb"></i></a>
                           <a href="https://www.linkedin.com/in/ammarkhalid123/" target="_blank"><i class="fab fa-linkedin linkedin" aria-hidden="true"></i></a>
-                          <a href="" target="_blank"><i class="fab fa-twitter twitter"></i></a>
+                          <!-- <a href="" target="_blank"><i class="fab fa-twitter twitter"></i></a> -->
                         </div>
                       </div>
                     </div>
@@ -456,8 +456,8 @@
                             
                           </div>
                         </div>
-                        <h5>Full Name</h5>
-                        <div class="designation">designation</div>
+                        <h5>Mustafa</h5>
+                        <div class="designation">Backend Developer</div>
                         <div class="social">
                           <a href="#"><i class="fab fa-facebook-f fb"></i></a>
                           <a href="#"><i class="fab fa-linkedin linkedin" aria-hidden="true"></i></a>
@@ -474,16 +474,16 @@
                       <div class="inner">
                         <div class="imageMain">
                           <div class="imgDiv">
-                            <img src="./images/profile.jfif" alt="">
+                            <img src="https://scontent.fkhi17-1.fna.fbcdn.net/v/t1.6435-1/c0.24.480.480a/p480x480/171303106_3844396642341707_5922479925864474131_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=7206a8&_nc_eui2=AeE7csSqrDK0n1_RwLwkXgvDu3xR7qr_ECi7fFHuqv8QKL7833CCFDjTgKtTvFLOnzXCzb1MhFf_Wz8a1cxYOM5N&_nc_ohc=staBR4d8KM0AX8iefL0&_nc_ht=scontent.fkhi17-1.fna&oh=00_AT8Ga3b3-8TyCZ97bLnKVNmsKE9OHAZW93tTkG4qEMu1oQ&oe=62363A66" alt="">
                             
                           </div>
                         </div>
-                        <h5>Full Name</h5>
-                        <div class="designation">designation</div>
+                        <h5>Ahsan Iqbal</h5>
+                        <div class="designation">Full Stack Developer</div>
                         <div class="social">
-                          <a href="#"><i class="fab fa-facebook-f fb"></i></a>
-                          <a href="#"><i class="fab fa-linkedin linkedin" aria-hidden="true"></i></a>
-                          <a href="#"><i class="fab fa-twitter twitter"></i></a>
+                          <a href=""><i class="fab fa-facebook-f fb"></i></a>
+                          <a href=""><i class="fab fa-linkedin linkedin" aria-hidden="true"></i></a>
+                          <!-- <a href="#"><i class="fab fa-twitter twitter"></i></a> -->
                         </div>
                       </div>
                     </div>
@@ -500,12 +500,12 @@
                             
                           </div>
                         </div>
-                        <h5>Full Name</h5>
-                        <div class="designation">designation</div>
+                        <h5>Noman Ahmed</h5>
+                        <div class="designation">Frontend Developer</div>
                         <div class="social">
-                          <a href="#"><i class="fab fa-facebook-f fb"></i></a>
-                          <a href="#"><i class="fab fa-linkedin linkedin" aria-hidden="true"></i></a>
-                          <a href="#"><i class="fab fa-twitter twitter"></i></a>
+                          <a href="https://www.facebook.com/noman.ahmad.9615566"><i class="fab fa-facebook-f fb"></i></a>
+                          <a href="http://www.linkedin.com/in/noman-ahmed-31a792168"><i class="fab fa-linkedin linkedin" aria-hidden="true"></i></a>
+                          <!-- <a href="#"><i class="fab fa-twitter twitter"></i></a> -->
                         </div>
                       </div>
                     </div>
